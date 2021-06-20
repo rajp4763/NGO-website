@@ -1,0 +1,263 @@
+:root
+{
+    margin: 0 auto;
+    padding: 0;
+}
+nav
+{
+    z-index: 1;
+    background-color: #39311D;
+}
+
+.headerbg
+{
+    padding: 0!important;
+    margin: 0 auto;
+    background-image:linear-gradient(to top, #c28e37, #39311D);
+    z-index: 1;
+}
+.headerbg>.header-heading
+{
+    margin-top: -15rem;
+    margin-left: 6rem;
+    font-size: 3rem;
+    width: 40%;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Satisfy', cursive;
+}
+.headerbg>.header-btn
+{
+    margin-left: 6rem;
+    border-radius: 50px ;
+    height: 50px;
+    color: white;
+    font-weight: 800;
+    background-color: #fdc305;
+    box-shadow: 10px 5px 5px #fd056c;
+    margin-bottom: 2rem;
+}
+.headerbg>img
+{
+    padding: 5rem;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+div.donate-left>h1
+{
+    text-transform: capitalize;
+    font-family: 'New Tegomin', serif;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+div.donate-left>p
+{
+    font-weight: 300;
+    padding: 2rem auto;
+    padding-right:2rem;
+    text-align: justify;
+}
+div.card-img
+{
+    background-color:#C28E37;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: auto;
+    margin: 1rem auto;
+    margin-bottom: 0;
+}
+div.card-img>img
+{
+ padding: 1rem;
+}
+div.card-body>h3
+{
+ 
+    font-family: serif; 
+    font-size: 1.2rem; 
+    transition: all 1s linear ; 
+}
+.row-cols-md-3>.col>div.card:hover
+{
+    background-color: #39311D;
+    color: #6D7575;
+}
+.donate-form
+{
+   width: 80%;
+   margin: 1rem auto;
+   padding: 3rem 3rem;
+   background-color: #39311D;
+
+}
+.donate-form>form>h6
+{
+    color: #C28E37;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+.donate-form>form>h1
+{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.donate-form>form>input
+{
+    background-color: #433C29;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: none;
+    border-style: none;
+    padding-left: 1rem;
+    color: #6D7575;
+}
+.donate-form>form>input:focus
+{
+    color: white;
+    outline-style: none;
+}
+.donate-form>form>button
+{
+    margin-top: 3rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: #C28E37;
+    color: white;
+    font-weight: 600;
+}
+section.donate-now
+{
+    background-image: url(8.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-attachment: fixed;
+}
+section.donate-now>.container-fluid>.row
+{
+    background: #000000d0;
+    opacity: 0.8;
+}
+section.donate-now>.container-fluid>.row>.content>h1
+{
+    color: white;
+    font-family:  cursive;
+    font-size: 3.2rem;
+    word-spacing: 5px;
+    margin-bottom: 0.8rem;
+}
+section.donate-now>.container-fluid>.row>.content
+{
+ margin: 5rem auto;
+ background: transparent;
+}
+section.donate-now>.container-fluid>.row>.content>button
+{
+    height: 3rem;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+div.img-volunteer
+{
+    position: relative;
+    top: -4em;
+    border: 5px solid #F8F9FA;
+    width: 8rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+div.card-body>.name
+{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    position: relative;
+    top:-3rem;
+}
+div.card-body>.heading
+{
+    color: #E7C690;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    top:-1.5rem;
+    left: 32%;
+}
+div.row-cols-md-4>.col>.card>.card-body>.card-text
+{
+    color: #6D7575;
+    font-family: serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+div.row-cols-md-4>.col>.card
+{
+    transition: all 1s ease-in-out;
+}
+div.row-cols-md-4>.col>.card:hover
+{
+    background-color: #39311D;
+    color:white;
+}
+section.testimonial
+{
+    background-image: url(8.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-attachment: fixed;
+    
+}
+h1.testimonial-heading
+{
+    font-family: cursive;
+}
+
+section.testimonial>.container-fluid>.row>.card-group
+{
+
+    padding: 0 10%;
+}
+div.left
+{
+    padding: 0 auto;
+    margin-right: 0;
+    margin-left: 8%;
+}
+div.left>img
+{
+    height: 85vh;
+    width: 90%;
+}
+div.img-blog
+{
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.card-body>.blog-name
+{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 2rem;
+}
+div.card-body>.blog-heading
+{
+    color: #E7C690;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    top: 0.2rem;
+    left: 32%;
+}
